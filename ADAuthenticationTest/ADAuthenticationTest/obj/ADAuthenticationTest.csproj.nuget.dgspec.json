@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\2020VSPractiseProject\\ADAuthenticationTest\\ADAuthenticationTest\\ADAuthenticationTest.csproj": {}
+  },
+  "projects": {
+    "E:\\2020VSPractiseProject\\ADAuthenticationTest\\ADAuthenticationTest\\ADAuthenticationTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\2020VSPractiseProject\\ADAuthenticationTest\\ADAuthenticationTest\\ADAuthenticationTest.csproj",
+        "projectName": "ADAuthenticationTest",
+        "projectPath": "E:\\2020VSPractiseProject\\ADAuthenticationTest\\ADAuthenticationTest\\ADAuthenticationTest.csproj",
+        "packagesPath": "C:\\Users\\Amol\\.nuget\\packages\\",
+        "outputPath": "E:\\2020VSPractiseProject\\ADAuthenticationTest\\ADAuthenticationTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Amol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.AzureAD.UI": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
